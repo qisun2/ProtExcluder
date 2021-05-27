@@ -16,7 +16,7 @@ while (<BLT>) {
     if (/^Query=\s+(\S+)/) {
 	$query = $1;
     }
-    elsif (/^>\s+(\S+)/) {
+    elsif (/^>\s*(\S+)/) {
 	$subject = $1;
 	printf ">%s %s\n",$subject,$query;
     }
