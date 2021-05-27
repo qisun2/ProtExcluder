@@ -16,3 +16,17 @@ http://weatherby.genetics.utah.edu/MAKER/wiki/index.php/Repeat_Library_Construct
 
 Nanjiang Shu (NBIS)
 nanjiang.shu@nbis.se
+
+Install instruction:
+git clone https://github.com/qisun2/ProtExcluder.git
+cd ProtExcluder
+# make sure to use hmmer version with binaries/esl-* files under the hmmer direcytory
+./Installer.pl -m /path/to/hmmer-3.1b1 -p /install/target/path/ProtExcluder
+
+cd ..
+cp -r ProtExcluder /install/target/path/
+
+run the code as :
+/install/target/path/ProtExcluder/ProtExcluder.pl blastout.txt sequence.fasta
+
+#blastout.txt was generated with diamond blastx, --outfmt 0
