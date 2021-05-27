@@ -17,7 +17,7 @@ while (<BLT>) {
 	$query_current = $1;
 	$ct = "q";
     }
-    elsif (/^>\s(\S+)/) {
+    elsif (/^>\s*(\S+)/) {
 	$sbjct_current = $1;
 	$ct = "sb";
     }
