@@ -1,5 +1,7 @@
 # ProtExcluder
 
+This version works with new Diamond / Blast output. Make sure to set outfmt 0 for both aligners.
+
 This is a modified version of ProtExcluder downloaded from its original site at
 http://www.hrt.msu.edu/uploads/535/78637/ProtExcluder1.2.tar.gz
 
