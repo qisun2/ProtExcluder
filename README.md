@@ -25,6 +25,7 @@ cd ProtExcluder
 ./Installer.pl -m /path/to/hmmer-3.1b1 -p /install/target/path/ProtExcluder
 
 cd ..
+
 cp -r ProtExcluder /install/target/path/
 
 #run the code as :
